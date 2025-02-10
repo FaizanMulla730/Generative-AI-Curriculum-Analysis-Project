@@ -1,0 +1,39 @@
+from peft import LoraConfig, get_peft_model
+from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer
+
+# Load the base model
+model_name = "meta-llama/Llama-2-7b"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(model_name)
+
+# LoRA Configuration (Efficient Fine-tuning)
+lora_config = LoraConfig(
+    r=8,  # Low-rank adaptation dimension
+    lora_alpha=32,
+    target_modules=["q_proj", "v_proj"],  # Adapting key layers only
+    lora_dropout=0.1,
+)
+
+# Apply LoRA to the model
+model = get_peft_model(model, lora_config)
+
+# Example fine-tuning dataset (tokenized text input)
+train_texts = ["Cornell University is a leading research institution in AI."]
+train_encodings = tokenizer(train_texts, return_tensors="pt", padding=True, truncation=True)
+
+# Training arguments
+training_args = TrainingArguments(
+    per_device_train_batch_size=2,
+    num_train_epochs=1,
+    learning_rate=5e-5,
+    output_dir="./results",
+)
+
+# Fine-tuning the model
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_encodings
+)
+
+trainer.train()
