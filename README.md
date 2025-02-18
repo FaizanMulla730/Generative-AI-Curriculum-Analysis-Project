@@ -7,7 +7,6 @@ This repository contains my work in Generative AI, covering research, fine-tunin
 
 ### Key Contributions
 
-
 ### 1. LLM Fine-Tuning & Optimization
 	•	Fine-tuned open-source models (LLaMA, Mistral, Falcon) using LoRA & QLoRA for memory-efficient training.
 	•	Evaluated GPT-4, DeepSeek, and other models for domain-specific text generation.
