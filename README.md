@@ -11,8 +11,7 @@ This repository contains my work in Generative AI, covering research, fine-tunin
 	•	Applied Reinforcement Learning from Human Feedback (RLHF) to improve model response coherence.
 ### 2️. Data Engineering & Preprocessing
 	•	Built custom dataset pipelines using NLTK, SpaCy, and KeyBERT for NLP tasks.
-	•	Processed multi-terabyte datasets with Apache Spark & Hadoop, reducing preparation time by 40%.
-
+	•	Processed multi-terabyte datasets with Apache Spark & Hadoop, reducing preparation time by 40%.=
 ### 3. Retrieval-Augmented Generation (RAG) & Accuracy Enhancement
 	•	Integrated FAISS/Pinecone vector search to retrieve factual data before text generation.
 	•	Reduced hallucinations in LLM outputs by 35% by grounding responses in real-world data.
