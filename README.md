@@ -9,6 +9,7 @@ My expertise spans LLM training, retrieval-augmented generation (RAG), reinforce
 	•	Fine-tuned open-source models (LLaMA, Mistral, Falcon) using LoRA & QLoRA for memory-efficient training.
 	•	Evaluated GPT-4, DeepSeek, and other models for domain-specific text generation.
 	•	Applied Reinforcement Learning from Human Feedback (RLHF) to improve model response coherence.
+ 
 ### 2️. Data Engineering & Preprocessing
 	•	Built custom dataset pipelines using NLTK, SpaCy, and KeyBERT for NLP tasks.
 	•	Processed multi-terabyte datasets with Apache Spark & Hadoop, reducing preparation time by 40%.=
