@@ -1,4 +1,3 @@
-
 # README: Generative AI Research & Development
 
 ### Overview
