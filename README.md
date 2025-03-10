@@ -1,7 +1,8 @@
 # README: Generative AI Research & Development
 
 ### Overview
-This repository contains my work in Generative AI, covering research, fine-tuning of Large Language Models (LLMs), NLP applications, model optimization, and scalable AI deployment. My expertise spans LLM training, retrieval-augmented generation (RAG), reinforcement learning (RLHF), and efficient model inference techniques.
+This repository contains my work in Generative AI, covering research, fine-tuning of Large Language Models (LLMs), NLP applications, model optimization, and scalable AI deployment. 
+My expertise spans LLM training, retrieval-augmented generation (RAG), reinforcement learning (RLHF), and efficient model inference techniques.
 
 ### Key Contributions
 ### 1. LLM Fine-Tuning & Optimization
