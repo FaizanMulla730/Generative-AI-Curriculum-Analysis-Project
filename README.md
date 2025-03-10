@@ -17,3 +17,5 @@ This repository contains my work in Generative AI, covering research, fine-tunin
 ### 4️. Model Deployment & Scalability
 	•	Optimized model inference speed by 30% using ONNX Runtime & quantization (INT8, BF16).
 	•	Deployed AI models on AWS (EC2, S3, Lambda) & GCP TPU clusters for real-time applications.
+
+
