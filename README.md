@@ -19,7 +19,6 @@ This repository contains my work in Generative AI, covering research, fine-tunin
 ### 3. Retrieval-Augmented Generation (RAG) & Accuracy Enhancement
 	•	Integrated FAISS/Pinecone vector search to retrieve factual data before text generation.
 	•	Reduced hallucinations in LLM outputs by 35% by grounding responses in real-world data.
-
 ### 4️. Model Deployment & Scalability
 	•	Optimized model inference speed by 30% using ONNX Runtime & quantization (INT8, BF16).
 	•	Deployed AI models on AWS (EC2, S3, Lambda) & GCP TPU clusters for real-time applications.
